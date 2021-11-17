@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 15:24:22 2020
+# Process ID: 24952
+# Current directory: C:/Users/86134/Desktop/FloatingLight/FloatingLight.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/86134/Desktop/FloatingLight/FloatingLight.sim/sim_1/behav/xsim/xsim.dir/FloatSim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/86134/Desktop/FloatingLight/FloatingLight.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/86134/Desktop/FloatingLight/FloatingLight.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/86134/Desktop/FloatingLight/FloatingLight.sim/sim_1/behav/xsim/xsim.dir/FloatSim_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov  7 07:43:37 2020
+# Process ID: 24364
+# Current directory: C:/Users/86134/Desktop/FullAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4840 C:\Users\86134\Desktop\FullAdder\FullAdder_LBH.xpr
+# Log file: C:/Users/86134/Desktop/FullAdder/vivado.log
+# Journal file: C:/Users/86134/Desktop/FullAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.srcs/sources_1/new/FullAdder.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.srcs/constrs_1/new/FullAdder_Constraint.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.srcs/sim_1/new/FullAdderSimu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.srcs/sources_1/ip/halfadder_0/halfadder_0.xci'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'halfadder_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.srcs/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.ip_user_files'.
+ERROR: [IP_Flow 19-993] Could not find IP file for IP 'halfadder_0'.
+CRITICAL WARNING: [IP_Flow 19-5097] Unable to determine VLNV from IP file; verify it has the correct syntax: 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/86134/Desktop/half_adder/half_adder.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 1034.898 ; gain = 0.000
+ERROR: [Common 17-39] 'open_project' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 07:44:19 2020...

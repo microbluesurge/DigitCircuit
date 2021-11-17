@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 23:55:27 2020
+# Process ID: 22556
+# Current directory: C:/Users/86134/Desktop/DFlip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21900 C:\Users\86134\Desktop\DFlip\DFlip.xpr
+# Log file: C:/Users/86134/Desktop/DFlip/vivado.log
+# Journal file: C:/Users/86134/Desktop/DFlip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/DFlip/DFlip.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 1032.578 ; gain = 0.000
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/86134/desktop/dflip/dflip.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 28 00:03:52 2020...

@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov  7 08:13:19 2020
+# Process ID: 18700
+# Current directory: C:/Users/86134/Desktop/FullAdder_linbh
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26296 C:\Users\86134\Desktop\FullAdder_linbh\FullAdder.xpr
+# Log file: C:/Users/86134/Desktop/FullAdder_linbh/vivado.log
+# Journal file: C:/Users/86134/Desktop/FullAdder_linbh\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/86134/Desktop/FullAdder' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/86134/Desktop/half_adder/half_adder.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1034.297 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2020.1/data/xsim/xsim.ini' copied to run dir:'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'FullAdderSimu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj FullAdderSimu_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sim/halfadder_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sim_1/new/FullAdderSimu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdderSimu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim'
+"xelab -wto 36e1dcb528b649d0b8842217284a6978 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot FullAdderSimu_behav xil_defaultlib.FullAdderSimu xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 36e1dcb528b649d0b8842217284a6978 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot FullAdderSimu_behav xil_defaultlib.FullAdderSimu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.halfadder
+Compiling module xil_defaultlib.halfadder_0
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.FullAdderSimu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot FullAdderSimu_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim/xsim.dir/FullAdderSimu_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim/xsim.dir/FullAdderSimu_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Nov  7 08:14:21 2020. For additional details about this file, please refer to the WebTalk help file at D:/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat Nov  7 08:14:21 2020...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1034.297 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "FullAdderSimu_behav -key {Behavioral:sim_1:Functional:FullAdderSimu} -tclbatch {FullAdderSimu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source FullAdderSimu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'FullAdderSimu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1034.297 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 08:26:33 2020...

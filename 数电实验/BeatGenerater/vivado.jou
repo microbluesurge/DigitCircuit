@@ -1,0 +1,129 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 28 00:04:03 2020
+# Process ID: 13064
+# Current directory: C:/Users/86134/Desktop/BeatGenerater
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28888 C:\Users\86134\Desktop\BeatGenerater\BeatGenerater.xpr
+# Log file: C:/Users/86134/Desktop/BeatGenerater/vivado.log
+# Journal file: C:/Users/86134/Desktop/BeatGenerater\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/BeatGenerater/BeatGenerater.xpr
+update_compile_order -fileset sources_1
+upgrade_ip -srcset FlipD_0 -vlnv xilinx.com:user:FlipD:1.0 [get_ips  FlipD_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips FlipD_0] -no_script -sync -force -quiet
+open_bd_design {C:/Users/86134/Desktop/BeatGenerater/BeatGenerater.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_nets clk_1] [get_bd_cells FlipD_0]
+delete_bd_objs [get_bd_nets util_vector_logic_3_Res] [get_bd_cells util_vector_logic_3]
+delete_bd_objs [get_bd_nets util_vector_logic_2_Res] [get_bd_cells util_vector_logic_2]
+delete_bd_objs [get_bd_cells util_vector_logic_1]
+delete_bd_objs [get_bd_nets util_vector_logic_0_Res] [get_bd_cells util_vector_logic_0]
+delete_bd_objs [get_bd_nets FlipD_1_q] [get_bd_nets util_vector_logic_4_Res] [get_bd_cells util_vector_logic_4]
+delete_bd_objs [get_bd_nets FlipD_0_q] [get_bd_nets Net] [get_bd_nets util_vector_logic_5_Res] [get_bd_cells util_vector_logic_5]
+delete_bd_objs [get_bd_ports clk]
+delete_bd_objs [get_bd_ports Res_4]
+delete_bd_objs [get_bd_ports Res]
+delete_bd_objs [get_bd_ports Res_1]
+delete_bd_objs [get_bd_ports Res_2]
+copy_bd_objs /  [get_bd_cells {FlipD_1}]
+set_property location {1 176 4} [get_bd_cells FlipD_2]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_vector_logic:2.0 util_vector_logic_0
+endgroup
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+copy_bd_objs /  [get_bd_cells {util_vector_logic_0}]
+set_property location {0.5 -362 -59} [get_bd_cells FlipD_2]
+set_property location {1 -318 117} [get_bd_cells FlipD_1]
+set_property -dict [list CONFIG.C_SIZE {1} CONFIG.C_OPERATION {not} CONFIG.LOGO_FILE {data/sym_notgate.png}] [get_bd_cells util_vector_logic_0]
+set_property -dict [list CONFIG.C_SIZE {1} CONFIG.C_OPERATION {not} CONFIG.LOGO_FILE {data/sym_notgate.png}] [get_bd_cells util_vector_logic_1]
+set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_2]
+set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_5]
+set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_3]
+set_property -dict [list CONFIG.C_SIZE {1}] [get_bd_cells util_vector_logic_4]
+set_property location {2.5 810 -276} [get_bd_cells util_vector_logic_2]
+set_property location {3 770 -93} [get_bd_cells util_vector_logic_5]
+set_property location {3 851 146} [get_bd_cells util_vector_logic_4]
+set_property location {3 741 316} [get_bd_cells util_vector_logic_3]
+set_property location {1.5 -93 136} [get_bd_cells util_vector_logic_1]
+set_property location {2 -75 -53} [get_bd_cells util_vector_logic_0]
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins util_vector_logic_0/Op1]
+connect_bd_net [get_bd_pins FlipD_1/q] [get_bd_pins util_vector_logic_1/Op1]
+set_property location {2.5 316 -196} [get_bd_cells util_vector_logic_2]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins util_vector_logic_2/Op1]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins util_vector_logic_2/Op2]
+startgroup
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins FlipD_2/clk]
+endgroup
+delete_bd_objs [get_bd_nets FlipD_2_q]
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins util_vector_logic_0/Op1]
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins FlipD_1/clk]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins FlipD_2/data]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins FlipD_1/data]
+set_property location {3 317 -39} [get_bd_cells util_vector_logic_3]
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins util_vector_logic_3/Op1]
+connect_bd_net [get_bd_pins FlipD_1/q] [get_bd_pins util_vector_logic_3/Op2]
+set_property location {3 423 99} [get_bd_cells util_vector_logic_4]
+connect_bd_net [get_bd_pins FlipD_1/q] [get_bd_pins util_vector_logic_4/Op2]
+connect_bd_net [get_bd_pins util_vector_logic_0/Res] [get_bd_pins util_vector_logic_4/Op1]
+set_property location {3 434 239} [get_bd_cells util_vector_logic_5]
+connect_bd_net [get_bd_pins util_vector_logic_1/Res] [get_bd_pins util_vector_logic_5/Op2]
+connect_bd_net [get_bd_pins FlipD_2/q] [get_bd_pins util_vector_logic_5/Op1]
+create_bd_port -dir O -type data Res
+set_property location {563 -221} [get_bd_ports Res]
+set_property location {554 -213} [get_bd_ports Res]
+set_property location {714 -212} [get_bd_ports Res]
+set_property location {528 -210} [get_bd_ports Res]
+startgroup
+connect_bd_net [get_bd_ports Res] [get_bd_pins util_vector_logic_2/Res]
+endgroup
+create_bd_port -dir O -type data Res_1
+connect_bd_net [get_bd_ports Res_1] [get_bd_pins util_vector_logic_3/Res]
+create_bd_port -dir O -type data Res_2
+startgroup
+connect_bd_net [get_bd_ports Res_2] [get_bd_pins util_vector_logic_4/Res]
+endgroup
+create_bd_port -dir O -type data Res_3
+startgroup
+connect_bd_net [get_bd_ports Res_3] [get_bd_pins util_vector_logic_5/Res]
+endgroup
+startgroup
+create_bd_port -dir I clk
+connect_bd_net [get_bd_pins /FlipD_2/clk] [get_bd_ports clk]
+endgroup
+save_bd_design
+delete_bd_objs [get_bd_nets util_vector_logic_2_Res]
+delete_bd_objs [get_bd_ports Res]
+create_bd_port -dir O -type data Res
+startgroup
+connect_bd_net [get_bd_ports Res] [get_bd_pins util_vector_logic_2/Res]
+endgroup
+delete_bd_objs [get_bd_nets util_vector_logic_3_Res]
+delete_bd_objs [get_bd_ports Res_1]
+create_bd_port -dir O -type data Res_1
+connect_bd_net [get_bd_ports Res_1] [get_bd_pins util_vector_logic_3/Res]
+save_bd_design
+delete_bd_objs [get_bd_nets util_vector_logic_5_Res]
+delete_bd_objs [get_bd_ports Res_3]
+create_bd_port -dir O -type data Res_3
+connect_bd_net [get_bd_ports Res_3] [get_bd_pins util_vector_logic_5/Res]
+save_bd_design
+delete_bd_objs [get_bd_nets util_vector_logic_4_Res]
+delete_bd_objs [get_bd_ports Res_2]
+create_bd_port -dir O -type data Res_2
+startgroup
+connect_bd_net [get_bd_ports Res_2] [get_bd_pins util_vector_logic_4/Res]
+endgroup
+save_bd_design
+make_wrapper -files [get_files C:/Users/86134/Desktop/BeatGenerater/BeatGenerater.srcs/sources_1/bd/design_1/design_1.bd] -top
+delete_bd_objs [get_bd_nets clk_1]
+delete_bd_objs [get_bd_ports clk]
+startgroup
+create_bd_port -dir I -type clk -freq_hz 100000000 clk
+connect_bd_net [get_bd_pins /FlipD_2/clk] [get_bd_ports clk]
+endgroup
+save_bd_design

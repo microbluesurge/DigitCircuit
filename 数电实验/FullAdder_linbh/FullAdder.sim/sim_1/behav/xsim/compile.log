@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sources_1/new/halfadder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sim/halfadder_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sim_1/new/FullAdderSimu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdderSimu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

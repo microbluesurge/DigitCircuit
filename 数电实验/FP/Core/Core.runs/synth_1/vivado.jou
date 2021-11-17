@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Dec 18 17:01:33 2020
+# Process ID: 9256
+# Current directory: C:/Users/86134/Desktop/FP/Core/Core.runs/synth_1
+# Command line: vivado.exe -log Core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Core.tcl
+# Log file: C:/Users/86134/Desktop/FP/Core/Core.runs/synth_1/Core.vds
+# Journal file: C:/Users/86134/Desktop/FP/Core/Core.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Core.tcl -notrace

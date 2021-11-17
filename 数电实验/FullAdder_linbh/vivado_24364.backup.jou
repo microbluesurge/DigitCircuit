@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov  7 07:43:37 2020
+# Process ID: 24364
+# Current directory: C:/Users/86134/Desktop/FullAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4840 C:\Users\86134\Desktop\FullAdder\FullAdder_LBH.xpr
+# Log file: C:/Users/86134/Desktop/FullAdder/vivado.log
+# Journal file: C:/Users/86134/Desktop/FullAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/FullAdder/FullAdder_LBH.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

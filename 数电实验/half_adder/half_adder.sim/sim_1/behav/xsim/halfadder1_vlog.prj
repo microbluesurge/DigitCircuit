@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../half_adder.srcs/sources_1/new/halfadder.v" \
+"../../../../half_adder.srcs/sim_1/new/halfadder1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

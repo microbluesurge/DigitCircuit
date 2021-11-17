@@ -1,0 +1,114 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Dec 18 17:03:03 2020
+| Host         : HELLOLULLABY running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Core_control_sets_placed.rpt
+| Design       : Core
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    36 |
+|    Minimum number of control sets                        |    36 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   225 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    36 |
+| >= 0 to < 4        |    31 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            2 |
+| No           | No                    | Yes                    |              29 |           23 |
+| No           | Yes                   | No                     |              12 |           12 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              38 |           11 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|                Clock Signal                |            Enable Signal           |              Set/Reset Signal             | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+|  nolabel_line44/counter_reg[0]_LDC_i_1_n_0 |                                    | start_IBUF_BUFG                           |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[6]_0          |                                    | nolabel_line42/passward_reg[6]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[3]_0          |                                    | nolabel_line42/passward_reg[3]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/changeflag_reg_0           |                                    | nolabel_line42/changeflag_reg             |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[5]_0          |                                    | nolabel_line42/passward_reg[5]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[7]_0          |                                    | nolabel_line42/passward_reg[7]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[1]_0          |                                    | nolabel_line42/passward_reg[1]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[0]_0          |                                    | nolabel_line42/passward_reg[0]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[2]_0          |                                    | nolabel_line42/passward_reg[2]_1          |                1 |              1 |         1.00 |
+|  nolabel_line42/changeflag_reg             |                                    | nolabel_line42/changeflag_reg_0           |                1 |              1 |         1.00 |
+|  nolabel_line42/passward_reg[4]_0          |                                    | nolabel_line42/passward_reg[4]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[1]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[6]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[5]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[3]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[0]_1          |                1 |              1 |         1.00 |
+|  start_IBUF_BUFG                           |                                    | nolabel_line44/counter_reg[0]_LDC_i_1_n_0 |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[4]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[5]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[7]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[7]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[1]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[2]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[0]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[3]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[6]_1          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[2]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/passward_reg[4]_0          |                1 |              1 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | changeflag_i_1_n_0                        |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                             |                                    | nolabel_line44/counter_reg[0]_LDC_i_1_n_0 |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG                             |                                    | start_IBUF_BUFG                           |                2 |              2 |         1.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/changeflag_reg_0           |                1 |              4 |         4.00 |
+|  change_IBUF_BUFG                          |                                    | nolabel_line42/changeflag_reg             |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                             | nolabel_line44/ca111_out           | start_IBUF_BUFG                           |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG                             |                                    |                                           |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG                             | nolabel_line44/counter[31]_i_1_n_0 | nolabel_line44/counter[31]_i_3_n_0        |                8 |             31 |         3.88 |
++--------------------------------------------+------------------------------------+-------------------------------------------+------------------+----------------+--------------+
+
+

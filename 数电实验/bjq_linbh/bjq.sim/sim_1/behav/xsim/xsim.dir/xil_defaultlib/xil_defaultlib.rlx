@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/86134/Desktop/bjq_linbh/bjq.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sim_1/new/bjq_sim.v,1604708414,verilog,,,,bjq_sim,,,,,,,,
+C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sources_1/ip/Selecter_0/sim/Selecter_0.v,1604584288,verilog,,C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sources_1/new/bjq1.v,,Selecter_0,,,,,,,,
+C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sources_1/ip/Selecter_0/sources_1/new/Selecter.v,1604584288,verilog,,C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sources_1/ip/Selecter_0/sim/Selecter_0.v,,Selecter,,,,,,,,
+C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sources_1/new/bjq1.v,1604584401,verilog,,C:/Users/86134/Desktop/bjq_linbh/bjq.srcs/sim_1/new/bjq_sim.v,,bjq1,,,,,,,,

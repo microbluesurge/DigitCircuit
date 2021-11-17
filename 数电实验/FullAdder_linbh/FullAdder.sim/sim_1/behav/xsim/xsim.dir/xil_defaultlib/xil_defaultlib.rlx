@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sim_1/new/FullAdderSimu.v,1604582399,verilog,,,,FullAdderSimu,,,,,,,,
+C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sim/halfadder_0.v,1604581575,verilog,,C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/new/FullAdder.v,,halfadder_0,,,,,,,,
+C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sources_1/new/halfadder.v,1604581575,verilog,,C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/ip/halfadder_0/sim/halfadder_0.v,,halfadder,,,,,,,,
+C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sources_1/new/FullAdder.v,1604582467,verilog,,C:/Users/86134/Desktop/FullAdder_linbh/FullAdder.srcs/sim_1/new/FullAdderSimu.v,,FullAdder,,,,,,,,

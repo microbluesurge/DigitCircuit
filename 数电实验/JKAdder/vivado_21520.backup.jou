@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 22:11:40 2020
+# Process ID: 21520
+# Current directory: C:/Users/86134/Desktop/JKAdder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20724 C:\Users\86134\Desktop\JKAdder\JKAdder.xpr
+# Log file: C:/Users/86134/Desktop/JKAdder/vivado.log
+# Journal file: C:/Users/86134/Desktop/JKAdder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/JKAdder/JKAdder.xpr
+update_compile_order -fileset sources_1

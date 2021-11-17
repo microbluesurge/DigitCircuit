@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Nov 27 23:55:27 2020
+# Process ID: 22556
+# Current directory: C:/Users/86134/Desktop/DFlip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21900 C:\Users\86134\Desktop\DFlip\DFlip.xpr
+# Log file: C:/Users/86134/Desktop/DFlip/vivado.log
+# Journal file: C:/Users/86134/Desktop/DFlip\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/86134/Desktop/DFlip/DFlip.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/86134/desktop/dflip/dflip.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force

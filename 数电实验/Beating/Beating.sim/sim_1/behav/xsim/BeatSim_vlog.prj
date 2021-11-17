@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Beating.ip_user_files/bd/design_1/ipshared/9a2d/sources_1/new/FlipD.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_FlipD_0_0/sim/design_1_FlipD_0_0.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_FlipD_0_1/sim/design_1_FlipD_0_1.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_0/sim/design_1_util_vector_logic_0_0.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_1/sim/design_1_util_vector_logic_0_1.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_0_2/sim/design_1_util_vector_logic_0_2.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_2_0/sim/design_1_util_vector_logic_2_0.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_2_1/sim/design_1_util_vector_logic_2_1.v" \
+"../../../../Beating.ip_user_files/bd/design_1/ip/design_1_util_vector_logic_2_2/sim/design_1_util_vector_logic_2_2.v" \
+"../../../../Beating.ip_user_files/bd/design_1/sim/design_1.v" \
+"../../../../Beating.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
+"../../../../Beating.srcs/sim_1/new/BeatSim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
